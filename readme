@@ -113,3 +113,9 @@ Example: form validation, counters with multiple actions.
 ✅ 5.useContext
 Provides a way to share global data between components without passing props manually.
 Example: theme, user authentication.
+
+📌 Practical Tasks
+Countdown Timer → uses useEffect to decrease time every second.
+Theme Switcher → uses useContext to toggle between Light/Dark mode.
+Form with Validation → uses useReducer to manage input values and errors.
+----------------------------------------------------------------------------------------------------

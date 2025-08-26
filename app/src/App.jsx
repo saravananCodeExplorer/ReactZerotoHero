@@ -8,6 +8,11 @@ import Profile from './Components/5.Styling in React/1.CSS Modules/Profile'
 import InlineStyleDemo from './Components/5.Styling in React/2. Inline Styles/InlineStyleDemo'
 import ProfilePage from './Components/5.Styling in React/3. Styled-components/ProfilePage'
 import DynamicBtn from './Components/5.Styling in React/1.CSS Modules/4.DynamicStylingwithProps/DynamicBtn'
+import CountdownTimer from './Components/6.Hooks/practice/CountdownTimer'
+import { ThemeProvider } from './Components/6.Hooks/practice/ThemeContext'
+import ThemeSwitcher from './Components/6.Hooks/practice/ThemeSwitcher'
+
+
 
 
 function App() {
@@ -32,7 +37,12 @@ function App() {
        <hr />
        <DynamicBtn/>
        <hr />
-       
+       <CountdownTimer/>
+       <hr></hr>
+     <ThemeProvider>
+      <ThemeSwitcher/>
+     </ThemeProvider>
+
       
 
     </>
