@@ -1,0 +1,74 @@
+React Learning Roadmap with Practical
+Experience
+1. Prerequisites (Before React)
+Learn:
+● HTML basics (tags, attributes, semantic HTML)
+● CSS basics (selectors, box model, flexbox, grid)
+● JavaScript fundamentals:
+○ Variables, data types, operators
+○ Functions, arrays, objects
+○ DOM manipulation
+○ map, filter, reduce
+○ ES6+ features (arrow functions, destructuring, spread/rest, template literals)
+Practical:
+● Build a static portfolio page with HTML/CSS/JS.
+● Create a simple "To-Do List" app in vanilla JavaScript.
+---------------------------------------------------------------------------------------
+📌 1. React Basics
+✅ What is React?
+React is a JavaScript library for building user interfaces.
+
+It allows building Single Page Applications (SPA) – meaning the page doesn’t reload for every navigation. Instead, React dynamically updates parts of the page using Virtual DOM.
+
+This makes apps faster and smoother.
+--------------------------------------------------------
+✅ 2.React Setup
+Vite (modern, faster – recommended)
+
+npm create vite@latest my-app
+cd my-app
+npm install
+npm run dev
+--------------------------------------------------------------
+✅3. JSX Syntax
+
+JSX lets you write HTML inside JavaScript.
+-------------------------------------------------------------------
+
+✅ 4.Components (Function Components)
+
+A React component is a function that returns UI.
+----------------------------------------------------------------------
+
+✅5.Props
+
+Props (short for properties) allow passing data from parent → child.
+-------------------------------------------------------------------
+✅ 6.State (useState)
+
+State allows a component to remember values and re-render when they change.
+----------------------------------------------------------------------
+✅7. Event Handling
+
+In React, events use camelCase (e.g., onClick).
+
+ex:<button onClick={() => alert("Clicked!")}>Click Me</button>
+
+-------------------------------------------------------------------------------
+✅ 8.Conditional Rendering
+
+Render content based on conditions.
+{isLoggedIn ? <p>Welcome back!</p> : <p>Please login</p>}
+--------------------------------------------------------------------------------------
+✅ 9.Lists & Keys
+
+Render arrays using .map() and give each element a unique key.
+-------------------------------------------------------------------------
+✅ 2. Practical Projects
+
+🟢 (A) Counter App
+🟢 (B) User Card List
+🟢 (C) Toggle Light/Dark Mode
+✅ With these 3 projects, you covered:
+useState,Props,Conditional rendering,Lists & Keys,Event handling.
+-------------------------------------------------------------------------------
