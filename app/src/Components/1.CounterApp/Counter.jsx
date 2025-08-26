@@ -1,4 +1,4 @@
-// Counter.js
+// Counter.jsx
 import { useState } from "react";
 
 function Counter() {
