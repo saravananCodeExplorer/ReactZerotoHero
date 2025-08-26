@@ -66,9 +66,50 @@ Render arrays using .map() and give each element a unique key.
 -------------------------------------------------------------------------
 ✅ 2. Practical Projects
 
-🟢 (A) Counter App
-🟢 (B) User Card List
-🟢 (C) Toggle Light/Dark Mode
+🟢 1.(A) Counter App
+🟢 2.(B) User Card List
+🟢 3.(C) Toggle Light/Dark Mode
 ✅ With these 3 projects, you covered:
 useState,Props,Conditional rendering,Lists & Keys,Event handling.
+✅ 4.EventHandling
+With these, you now understand event handling in React:
+onClick (button clicks),onChange (inputs),onSubmit (forms),Passing parameters
 -------------------------------------------------------------------------------
+✅ 5.Styling in React
+🔹 1. CSS Modules
+CSS Modules scope styles locally to a component.
+File name must end with .module.css.
+
+🔹 2. Inline Styles
+Use a JavaScript object to define styles.
+
+🔹 3. Styled-components (CSS in JS)
+cmd : npm install styled-components
+
+🔹 4. Tailwind CSS (Utility-first CSS framework)
+Tailwind gives you ready-made CSS utility classes (like bg-blue-500, p-4, text-center) so you don’t write custom CSS much.
+Instead of creating CSS files, you apply these classes directly to your JSX elements.
+
+npm install -D tailwindcss postcss autoprefixer
+tailwindcss → the framework
+postcss → processes Tailwind styles
+autoprefixer → adds browser-specific CSS rules automatically
+
+------------------------------------------------------------------------------
+📌 6.React Hooks (Core) – Simple Definitions
+✅1. useState
+Lets you add state variables inside functional components.
+Example: storing a counter value, input text.
+✅2. useEffect
+Runs side effects after render.
+Example: timers, fetching data, subscriptions.
+✅ 3.useRef
+Stores a mutable reference that doesn’t re-render the component.
+Example: accessing a DOM element or saving a previous value.
+✅4.useReducer
+Alternative to useState for complex state logic.
+Uses a reducer function (state, action) → new state.
+Example: form validation, counters with multiple actions.
+✅ 5.useContext
+Provides a way to share global data between components without passing props manually.
+Example: theme, user authentication.
